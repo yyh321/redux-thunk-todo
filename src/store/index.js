@@ -7,7 +7,7 @@ import {
 import thunk from 'redux-thunk';
 
 import reducer from './reducer'
-
+// 配置store
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
   window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({}) : compose;
 
